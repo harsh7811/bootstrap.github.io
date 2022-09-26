@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
+
+/*---------------------- Carousel Section -----------------------------*/
+
+.carousel-item img {
+    height: 100vh;
+}
+
+/* .carousel-item::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+} */
+
+/*---------------------- Services Section -----------------------------*/
+
+#service-section {
+    padding-top: 5rem;
+}
+
+.container .sec-cols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.container .sec-cols {
+    transition: all ease .3s;
+}
+
+
+.container .sec-cols:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.container .sec:hover {
+    box-shadow: 10px 10px 10px grey;
+}
+
+
+/*---------------------- About Section -----------------------------*/
+
+
+#about-section {
+    padding-top: 5rem;
+}
+
+.about-inner {
+    height: 80vh;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.about-inner img {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+/*---------------------- Contact Section -----------------------------*/
+
+#contact-section {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
